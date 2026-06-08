@@ -1,0 +1,14 @@
+{
+  "name": "inventory-reservation-api",
+  "version": "1.0.0",
+  "description": "REST API for reserving limited inventory resources.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test:scenario": "node test.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
+}
